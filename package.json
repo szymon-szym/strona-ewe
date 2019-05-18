@@ -1,0 +1,25 @@
+{
+  "name": "strona Eweliny",
+  "version": "0.1.0",
+  "description": "Simple website",
+  "author": "szymon_szym",
+  "private": false,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "autoprefixer": "9.2.1",
+    "cross-env": "^5.2.0",
+    "express": "4.16.4",
+    "nuxt": "^2.1.0",
+    "tailwindcss": "1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "keywords": []
+}

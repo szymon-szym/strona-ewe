@@ -1,0 +1,12 @@
+@tailwind base;
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  @apply m-0;
+}
+
+@tailwind components;
+
+@tailwind utilities;
