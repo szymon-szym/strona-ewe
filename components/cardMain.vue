@@ -1,7 +1,7 @@
 <template>
   <div class="card bg-white m-auto rounded-t">
     <div>
-      <img class="rounded-t" src="http://placekitten.com/500/200">
+      <img class="rounded-t" src="/fox-card.jpg">
     </div>
     <div class="p-4">
       <div class="text-3xl font-medium">{{cardTitle}}</div>

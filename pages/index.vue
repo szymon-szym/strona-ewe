@@ -36,7 +36,9 @@ export default {
 @media (min-width: 1280px) {
   .hero-image {
     height: 70vh;
-    background-image: url("https://images.unsplash.com/photo-1506806732259-39c2d0268443?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2552&q=80");
+    background-image: url("/hero-hands.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   }
 }
 </style>
