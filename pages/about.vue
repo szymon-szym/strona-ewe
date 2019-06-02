@@ -1,19 +1,30 @@
 <template>
-  <div class="container">
-    <div>
-      <h1>Hello from
-        <span class="name">{{ name }}</span>.
-      </h1>
-      <p>If you refresh you'll see it's loaded by the server.</p>
-      <p>
-        <nuxt-link to="/" class="button--grey">Back home</nuxt-link>
-      </p>
+  <section>
+    <div class="container">
+      <div class="p-4 w-auto bg-white rounded border border-grey m-8 flex-row md:flex lg:w-2/3 lg:mx-auto  justify-center items-center">
+        <img
+          class="rounded-full h-32 w-32 m-auto md:m-1 "
+          src="https://placekitten.com/200/200"
+          alt="photo of Ewelina"
+        >
+        <div class="mt-2 text-left text-sm md:text-base md:ml-3">
+          Jestem absolwentką Uniwersytetu im. A. Mickiewicza w Poznaniu na kierunku pedagogika
+          przedszkolna i wczesnoszkolna. Zawodowo pracuje w przedszkolu Wspólne Gniazdko, które działa w
+          oparciu o pedagogikę walfdorską oraz NVC. Rozwijam się jako pedagog biorąc udział w warsztatach
+          oraz szkoleniach. Nieustannie poszukuje narzędzi do pracy, by jak najlepiej odpowiadać na potrzeby
+          dzieci.
+          Rękodzieło jest moją pasją, którą rozwijam na wielu obszarach: filcowanie, szydełkowanie,
+          decoupage, szycie. Chciałabym poprzez warsztaty podzielić się z dziećmi swoimi umiejętnościami
+          oraz pokazać im, jak piękne rzeczy mogą stworzyć nasze ręce.
+        </div>
+      </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
 export default {
+  layout: "about",
   asyncData() {
     return {
       name: process.server ? "server" : "client"
@@ -23,20 +34,4 @@ export default {
 </script>
 
 <style scoped>
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-h1 {
-  font-weight: 400;
-}
-.name {
-  color: #3b8070;
-}
-p {
-  margin-top: 20px;
-}
 </style>

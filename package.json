@@ -1,7 +1,7 @@
 {
-  "name": "stronaEweliny",
+  "name": "małe warsztaty",
   "version": "0.1.0",
-  "description": "Simple website",
+  "description": "strona o małych warsztatach",
   "author": "szymon_szym",
   "private": false,
   "scripts": {
