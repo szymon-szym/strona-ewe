@@ -4,7 +4,7 @@
       <div class="p-4 w-auto bg-white rounded border border-grey m-8 flex-row md:flex lg:w-2/3 lg:mx-auto  justify-center items-center">
         <img
           class="rounded-full h-32 w-32 m-auto md:m-1 "
-          src="https://placekitten.com/200/200"
+          src="/photos.jpg"
           alt="photo of Ewelina"
         >
         <div class="mt-2 text-left text-sm md:text-base md:ml-3">

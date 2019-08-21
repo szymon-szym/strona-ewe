@@ -1,19 +1,19 @@
 <template>
   <div class="card bg-white m-auto rounded-t">
     <div>
-      <img class="rounded-t" src="/fox-card.jpg">
+      <img class="rounded-t" :src="imgSource">
     </div>
     <div class="p-4">
       <div class="text-3xl font-medium">{{ cardTitle }}</div>
       <div class="card-text">{{ cardTxt }}</div>
-      <div>
+      <!-- <div>
         Czas trwania warsztatu:
         <span class="font-bold">{{ duration }} godz.</span>
       </div>
       <div>
         Koszt:
         <span class="font-bold">{{ price }} zł</span>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -25,6 +25,7 @@ export default {
     cardTxt: String,
     price: String,
     duration: String,
+    imgSource: String,
   },
   data() {
     return {

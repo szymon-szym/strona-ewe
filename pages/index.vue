@@ -9,26 +9,39 @@
     </div>
       <div class="bg-white p-3 rounded" style="margin: 10px 35px;">
         <div class="text-xl mb-2 md:text-3xl">Niech praca twórcza stanie się wspaniałą zabawą!</div>
-          <div class="md:text-xl">Urodzinowe Warsztaty Rękodzielnicze powstały z myślą o uatrakcyjnieniu przyjęć dziecięcych. Własnoręcznie wykonane przedmioty będą wspaniałą pamiątką dla jubilata oraz jego gości z tego wyjątkowego dnia. Do wspólnego tworzenia zapraszamy dzieci od 5 roku życia. Stopień zaawansowania wykonywanych przedmiotów jest dostosowany do wieku uczestników, więc zarówno dla 5 latka jak i 12 latka warsztat będzie interesującym doświadczeniem. 
+          <div class="md:text-xl">Jeżeli w jednym miejscu spotyka się duża liczba małych rączek, jest to doskonałe miejsce dla Małych Warszatów :)
+            Zaproście nas na swoją uroczystość! 
+
 </div>
       </div>
     <div class="main-container sm:p-12 p-3 pt-6 bg-gray-100">
       <cardMain
-      cardTitle= "Filcowanie na mokro"
-      cardTxt= "Wełna, mydło, ciepła woda i już korale ozdobią szyję jubilata i jego gości :) Podczas tych warsztatów dzieci będą miały okazję nauczyć się filcować kulki z wełny, a następnie wykonać korale lub bransoletkę."
-      price= "30"
-      duration= "1-1,5"
+      cardTitle= "Pudełeczka"
+      cardTxt= "Przy pomocy serwetek, wstążek, koralików, kamyków, patyków, muszelek i czego tylko zapragniecie zmienimy niepozorne pudełka w wyjątkowe szkatułki, które przechowają największe dziecięce skarby"
+      
+      
+      imgSource = "/box.jpg"
       />
       <cardMain
-      cardTitle= "Decoupage"
-      cardTxt= "Przy pomocy serwetek, wstążek oraz koralików zmienimy niepozorne pudełka w wyjątkowe szkatułki, które przechowają największe dziecięce skarby."
-      price= "25"
-      duration= "1-1,5"/>
+      cardTitle= "Kolorowe tkaniny"
+      cardTxt= "To wyjątkowo kolorowe warsztaty! Używamy farb i mazaków do tkanin, które gwarantują trwałość wykonanej pracy i radość przez długi czas. Proponujemy upiększenie torby bawełnianej, koszulki lub workoplecaka. A czym malujemy? Czym się da! Stemplami, patyczkami, kołeczkami"
+     
+      imgSource = "/bag.jpg"
+      />
       <cardMain
-      cardTitle= "Filcowe cudaki"
-      cardTxt= "Portfelik, breloczek czy broszka w wybranym przez dzieci kształcie – uszyjemy wspólnymi siłami, co tylko podpowie nam wyobraźnia!"
-      price= "20"
-      duration= "1-1,5"/>
+      cardTitle= "Świece żelowe"
+      cardTxt= "Świece żelowe, a w nich zatopione przeróżne skarby. Pachnące, niepowtarzalne."
+      
+      
+      imgSource = "/candels.jpg"
+      />
+      <cardMain
+      cardTitle= "Gipsowe odlewy "
+      cardTxt= "Na początku szare, ale dzięki pomocy dzieci mają szanse nabrać barw i cieszyć oczy jako magnesy oraz zawieszki."
+      
+      
+      imgSource = "/fish2.jpg"
+      />
     </div>
   </section>
 </template> 
