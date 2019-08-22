@@ -18,19 +18,21 @@
       <cardMain
       cardTitle= "Pudełeczka"
       cardTxt= "Przy pomocy serwetek, wstążek, koralików, kamyków, patyków, muszelek i czego tylko zapragniecie zmienimy niepozorne pudełka w wyjątkowe szkatułki, które przechowają największe dziecięce skarby"
-      
+      price="25"
       
       imgSource = "/box.jpg"
       />
       <cardMain
       cardTitle= "Kolorowe tkaniny"
       cardTxt= "To wyjątkowo kolorowe warsztaty! Używamy farb i mazaków do tkanin, które gwarantują trwałość wykonanej pracy i radość przez długi czas. Proponujemy upiększenie torby bawełnianej, koszulki lub workoplecaka. A czym malujemy? Czym się da! Stemplami, patyczkami, kołeczkami"
+      price="20-25"
      
       imgSource = "/bag.jpg"
       />
       <cardMain
       cardTitle= "Świece żelowe"
       cardTxt= "Świece żelowe, a w nich zatopione przeróżne skarby. Pachnące, niepowtarzalne."
+      price="25"
       
       
       imgSource = "/candels.jpg"
@@ -38,7 +40,8 @@
       <cardMain
       cardTitle= "Gipsowe odlewy "
       cardTxt= "Na początku szare, ale dzięki pomocy dzieci mają szanse nabrać barw i cieszyć oczy jako magnesy oraz zawieszki."
-      
+      price="18"
+            
       
       imgSource = "/fish2.jpg"
       />

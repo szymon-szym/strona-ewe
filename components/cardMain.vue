@@ -1,5 +1,5 @@
 <template>
-  <div class="card bg-white m-auto rounded-t">
+  <div class="card bg-white  rounded-t">
     <div>
       <img class="rounded-t" :src="imgSource">
     </div>
@@ -9,11 +9,11 @@
       <!-- <div>
         Czas trwania warsztatu:
         <span class="font-bold">{{ duration }} godz.</span>
-      </div>
+      </div> -->
       <div>
         Koszt:
-        <span class="font-bold">{{ price }} zł</span>
-      </div> -->
+        <span class="font-bold">{{ price }} zł/os.</span>
+      </div>
     </div>
   </div>
 </template>
