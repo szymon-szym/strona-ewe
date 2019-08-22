@@ -20,7 +20,7 @@
       cardTxt= "Przy pomocy serwetek, wstążek, koralików, kamyków, patyków, muszelek i czego tylko zapragniecie zmienimy niepozorne pudełka w wyjątkowe szkatułki, które przechowają największe dziecięce skarby."
       price="25"
       
-      imgSource = "/box.jpg"
+      imgSource = "/box2.jpg"
       />
       <cardMain
       cardTitle= "Kolorowe tkaniny"
