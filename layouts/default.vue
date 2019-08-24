@@ -3,7 +3,7 @@
     <header
       class="p-3 h-10 text-sm w-full fixed block bg-mustard text-black flex items-center justify-between"
     >
-      <nuxt-link to="/">Strona Eweliny</nuxt-link>
+      <nuxt-link to="/">Małe Warsztaty</nuxt-link>
       <div class="flex text-sm">
         <nuxt-link to="/" class="mr-2 lg:mr-6">Główna</nuxt-link>
         <nuxt-link to="/about" class="mr-2 lg:mr-6">O mnie</nuxt-link>
