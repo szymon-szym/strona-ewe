@@ -1,7 +1,7 @@
 {
   "name": "male-warsztaty",
   "version": "0.1.0",
-  "description": "strona o małych warsztatach",
+  "description": "Warsztaty rękodzielnicze dla dzieci",
   "author": "szymon_szym",
   "private": false,
   "scripts": {
