@@ -14,10 +14,10 @@
 
 </div>
       </div>
-    <div class="main-container sm:p-12 p-3 pt-6 bg-gray-100">
+    <div class="main-container sm:p-6 p-2 pt-4 bg-gray-100">
       <cardMain
       cardTitle= "Pudełeczka"
-      cardTxt= "Przy pomocy serwetek, wstążek, koralików, kamyków, patyków, muszelek i czego tylko zapragniecie zmienimy niepozorne pudełka w wyjątkowe szkatułki, które przechowają największe dziecięce skarby."
+      cardTxt= "Przy pomocy serwetek, wstążek, koralików, kamyków, patyków, muszelek i czego tylko zapragniecie zmienimy niepozorne pudełka w wyjątkowe szkatułki, które przechowają największe dziecięce skarby. Tematyka pracy jest dowolna, postaram się spełnić każde życzenie jubilata w kwestii materiałów. Wróżki, kwiaty, zwierzęta, motywy z bajek i tym podobne :)"
       price="25"
       
       imgSource = "/box2.jpg"
@@ -43,7 +43,15 @@
       price="18"
             
       
-      imgSource = "/fish2.jpg"
+      imgSource = "/gips1.jpg"
+      <cardMain
+      cardTitle= "Biżuteria z filcu "
+      cardTxt= "Tylko ciepła woda, mydło i wełna czesankowa są potrzebne, by każdy mógł stworzyć wymarzone korale lub bransoletkę. Podczas Warsztatów Rodzinnych  nauczymy się filcować kulki, które posłużą do stworzenia biżuterii. Materiały potrzebne do dokończenia pracy otrzymacie do domu by wspólnie kontynuować filcowanie."
+      price=""
+            
+      
+      imgSource = "/felt2.jpg"
+      />
       />
     </div>
   </section>
@@ -61,15 +69,22 @@ export default {
 
 <style scoped>
 .main-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 35px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+  /* grid-template-columns: 1fr 350px 1fr;
+  grid-gap: 35px; */
 }
 @media (min-width: 615px) {
   .main-container {
-    display: grid;
+    display: flex;
+  flex-flow: column;
+  align-items: center;
+    /* display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    grid-gap: 35px;
+    grid-gap: 35px; */
   }
 }
 @media (min-width: 1280px) {

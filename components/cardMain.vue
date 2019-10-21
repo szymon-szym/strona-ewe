@@ -1,10 +1,10 @@
 <template>
-  <div class="card bg-white  rounded-t">
+  <div class="card bg-white  rounded-t mt-6">
+      <div class="text-3xl font-medium p-4 text-center">{{ cardTitle }}</div>
     <div>
       <img class="rounded-t" :src="imgSource">
     </div>
     <div class="p-4">
-      <div class="text-3xl font-medium">{{ cardTitle }}</div>
       <div class="card-text">{{ cardTxt }}</div>
       <!-- <div>
         Czas trwania warsztatu:
